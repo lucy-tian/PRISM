@@ -6,7 +6,8 @@ The repo is organized into three main folders:
 
 - **[`PRISM/`](./PRISM/)** — core code for running PRISM  
 - **[`Analysis/`](./Analysis/)** — scripts for downstream analyses and figure generation  
-- **[`Benchmarking/`](./Benchmarking/)** — implementations of alternative PGS approaches for comparison  
+- **[`Benchmarking/`](./Benchmarking/)** — implementations of alternative PGS approaches for comparison
+- **[`Simulation/`](./Simulation/)** - reproducible toy example demonstrating the complete PRISM workflow using synthetic genotype and phenotype data
 
 ---
 
@@ -170,9 +171,12 @@ Core methods for data curation, cV2F training, and running PRISM.
 ### 2. [`Analysis/`](./Analysis/)
 Code for analyses and figures presented in the manuscript. Organized according to major sections:
 - **Ancestry-specific analysis**  
-- **Tissue-specific analysis**  
-- **Biological interpretation**  
-- **Benchmarking**  
+- **Tissue-specific analysis**
+- **Benchmarking**
+- **Ablation analysis**
+- **Validation in All of Us**
+- **Biological interpretation**
+- **cV2F cutoff sensitivity analysis**
 
 Scripts here are mainly for **plot generation** and result visualization.
 
